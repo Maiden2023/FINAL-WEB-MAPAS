@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  color: #333;
+}
+
+.google-map {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+}
+
+.btn-primary {
+  border-radius: 5px;
+}

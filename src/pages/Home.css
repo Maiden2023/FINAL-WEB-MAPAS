@@ -1,0 +1,129 @@
+/* Contenedor principal */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Encabezado */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #007bff;
+  padding: 10px 20px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+/* Contenedor del mapa */
+.map-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Tabla */
+.table-container {
+  width: 80%;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.table th{
+
+  color: rgb(0, 0, 0);
+}
+
+.table td button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.table td button:hover {
+  background-color: #0056b3;
+}
+/* Contenedor del buscador */
+.search-container {
+  margin: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.search-input {
+  width: 80%;
+  max-width: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.municipios-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.municipios-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.municipios-container li {
+  margin: 10px 0;
+}
+
+.btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+ 
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
